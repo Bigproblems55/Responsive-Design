@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import Midsection from './Midsection';
 import Footer from './Footer';
+import Home from './Homepath/Home';
 import Contact from './Contact/Contact';
 import ContactList from './Contact/ContactList'
 function App() {
@@ -17,7 +18,7 @@ function App() {
        <Routes>
         
        <Route exact path="/"
-            element={<Contact />} ></Route> 
+            element={<Home />} ></Route> 
         <Route  path="/Projects"
             element={<Midsection />} ></Route> 
         <Route  path="/About"
