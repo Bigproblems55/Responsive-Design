@@ -13,10 +13,10 @@ function App() {
         
         <BrowserRouter>
         <Header /> 
-        <Footer />
+        
        <Routes>
         
-       <Route  path="/"
+       <Route exact path="/"
             element={<Contact />} ></Route> 
         <Route  path="/Projects"
             element={<Midsection />} ></Route> 
@@ -26,6 +26,7 @@ function App() {
             element={<ContactList />} ></Route> 
           
        </Routes>
+       <Footer />
      </BrowserRouter>
       
     </>
