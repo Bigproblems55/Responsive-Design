@@ -4,12 +4,39 @@ import Mypdf from '../../Data/Nicholas Anthony Lacapria pdf resume.pdf';
 
 export default function Pdfviewer() {
     const [numPages, setNumPages] = useState(null);
-  
+    const [loading,setLoading] = useState(null);
     function onDocumentLoadSuccess({ numPages }) {
-      try{
+
         setNumPages(numPages);
-      }catch(er){
-        console.log(er);
+
+        console.log(setNumPages);
+      
+    }
+    function loadingDocument(){
+
+      try{
+        if(loading !== null){
+          
+          if(numPages.length <= 8){
+            console.log('in loading')
+            if(numPages.length === 8){
+              setLoading(false);
+            }
+            return(
+              
+              <Document file={Mypdf}>
+                Array.from(new Array(numPages), (el, index) => (
+                  <Page key={`page_${index + 1}`} pageNumber={index + 1} />
+              
+              ))
+              </Document>
+            )
+          }
+      }else{
+        onDocumentLoadSuccess(8);
+      }
+      }catch(e){
+        console.log(e);
       }
     }
   
@@ -17,12 +44,7 @@ export default function Pdfviewer() {
        
     return (
       <div>
-        <Document file={Mypdf} 
-        onLoadSuccess={onDocumentLoadSuccess}>
-          {Array.from(new Array(numPages), (el, index) => (
-            <Page key={`page_${index + 1}`} pageNumber={index + 1} />
-          ))}
-        </Document>
+        {loadingDocument}
       </div>
     );
   }

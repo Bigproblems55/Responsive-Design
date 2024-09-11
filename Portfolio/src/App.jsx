@@ -1,7 +1,7 @@
 import  React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Header';
-import Midsection from './Midsection';
+import Midsection from './Midsection/Midsection';
 import Footer from './Footer';
 import Home from './Homepath/Home';
 import Contact from './Contact/Contact';

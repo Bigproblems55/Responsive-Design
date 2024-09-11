@@ -1,15 +1,15 @@
 import React from 'react';
-import proj1 from './Assets/proj1.png';
-import proj2 from './Assets/proj2.png';
-import proj3 from './Assets/proj3.png';
-import sprint from './Assets/sprint.png';
+import proj1 from '../Assets/proj1.png';
+import proj2 from '../Assets/proj2.png';
+import proj3 from '../Assets/proj3.png';
+import sprint from '../Assets/sprint.png';
 export default function Midsection(){
 
     return(
         <>
         <section className='middle-sec'>
-            <div className='projCon'>
-                <div class='projectBoxes'><b>User Interface</b>
+        <div className='projCon'>
+            <div class='projectBoxes'><b>User Interface</b>
             
             <button><a href="https://naughty-poincare-17bc38.netlify.app/">Sweet EETS Bakery</a></button>
             
