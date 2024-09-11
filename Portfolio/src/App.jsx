@@ -3,7 +3,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './Header';
 import Midsection from './Midsection';
 import Footer from './Footer';
-import Contact from './Contact/Contact'
+import Contact from './Contact/Contact';
+import ContactList from './Contact/ContactList'
 function App() {
  
   return (
@@ -11,19 +12,18 @@ function App() {
       
         
         <BrowserRouter>
-        <Header />
-        <Midsection />
+        <Header /> 
         <Footer />
        <Routes>
         
-       <Route  path="/Contact"
+       <Route  path="/"
             element={<Contact />} ></Route> 
         <Route  path="/Projects"
-            element={<Contact />} ></Route> 
+            element={<Midsection />} ></Route> 
         <Route  path="/About"
             element={<Contact />} ></Route> 
-         <Route  path="/Home"
-            element={<Contact />} ></Route> 
+         <Route  path="/Contact"
+            element={<ContactList />} ></Route> 
           
        </Routes>
      </BrowserRouter>
