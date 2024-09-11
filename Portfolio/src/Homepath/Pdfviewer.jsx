@@ -1,50 +1,45 @@
 import React,{useState,useEffect} from "react";
-import { Document, Page,pdfjs } from 'react-pdf';
+import {pdfjs } from 'react-pdf';
 import Mypdf from '../../Data/Nicholas Anthony Lacapria pdf resume.pdf';
-
-export default function Pdfviewer() {
-    const [numPages, setNumPages] = useState(null);
-    const [loading,setLoading] = useState(null);
-    function onDocumentLoadSuccess({ numPages }) {
-
+import Loadingdoc from "./Loadingdoc";
+export default function Pdfviewer({numPages,setNumPages}) {
+    
+    
+  const [loading,setLoading] = useState(false);
+    function onDocumentLoadSuccess() {
         setNumPages(numPages);
-
-        console.log(setNumPages);
-      
+        setLoading(true);
+        console.log(numPages);
     }
-    function loadingDocument(){
+    function LoadingDocument(){
 
       try{
-        if(loading !== null){
-          
-          if(numPages.length <= 8){
+        pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+      
+        if(loading ){
+          console.log('inLoadingdoc')
+          if(numPages.length <= 7){
             console.log('in loading')
-            if(numPages.length === 8){
+            if(numPages.length === 7){
               setLoading(false);
             }
-            return(
-              
-              <Document file={Mypdf}>
-                Array.from(new Array(numPages), (el, index) => (
-                  <Page key={`page_${index + 1}`} pageNumber={index + 1} />
-              
-              ))
-              </Document>
-            )
+            
           }
       }else{
-        onDocumentLoadSuccess(8);
+        onDocumentLoadSuccess(7);
       }
       }catch(e){
+        // onDocumentLoadSuccess(7);
         console.log(e);
       }
     }
-  
-    pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-       
+    useEffect(()=>{
+      LoadingDocument
+    },[numPages])
+     
     return (
       <div>
-        {loadingDocument}
+        <Loadingdoc numPages={numPages} loading={loading} />
       </div>
     );
   }
