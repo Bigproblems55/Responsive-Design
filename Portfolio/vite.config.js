@@ -17,6 +17,14 @@ export default defineConfig({
         }
       ]
     })
-  ]
+  ],
+  worker: {
+    // Not needed with vite-plugin-top-level-await >= 1.3.0
+    // format: "es",
+    plugins: [
+      wasm(),
+      topLevelAwait()
+    ]
+  }
 });
 // https://vitejs.dev/config/
