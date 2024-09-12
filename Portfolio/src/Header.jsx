@@ -25,12 +25,7 @@ export default function Header(){
                     </NavLink>
                 
             </nav>
-            <div id="bHead">
-                <div className="bHead">
-                    <h1>Nicholas Anthony Lacapria</h1>
-                    <button className="K">My Projects</button>
-                </div>
-            </div>
+            
         </header>
     )
 }

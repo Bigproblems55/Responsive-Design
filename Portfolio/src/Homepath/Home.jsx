@@ -1,5 +1,4 @@
-import React,{useState} from "react";
-import Loadingdoc from "./Loadingdoc";
+import React,{useState} from "react"; 
 import Mydf from '../../Data/Nicholas Anthony Lacapria pdf resume.pdf';
 export default function Home(){
 
@@ -9,8 +8,8 @@ export default function Home(){
         <>
             {
                 <iframe src={Mydf} 
-                width="600px" 
-                height="600px" />
+                width="100%" 
+                height="100%" />
             }
         </>
     )

@@ -1,5 +1,5 @@
 /* reset css */
-span, applet, object, iframe,  
+span, applet, object,  
 h3, h4, h5, h6, blockquote, pre,  
 abbr, acronym, address, big, cite, code,  
 del, dfn, em,  ins, kbd, q, s, samp,  
@@ -22,7 +22,7 @@ vertical-align: baseline;
 /* HTML5 display-role reset */
 article, aside, details, figcaption, 
 figure, hgroup, menu {
-   display: block;
+   display: flex;
 }
 
 /* Desktops */
@@ -32,6 +32,19 @@ figure, hgroup, menu {
        font-size:2rem;
        font-weight:700;
    }
+   iframe {
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+div > iframe{
+    width:100%;
+    height:100vh;
+}
+
 
 nav{
    display: flex;
@@ -53,12 +66,12 @@ rgba(2,0,36,1) 89%);
 h1{
    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0em blue;
    color: white;
-   font: 4.5rem Georgia, serif;
+   font: 2.5rem Georgia, serif;
 }
 h2{
    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0em 0 0em blue;
    color: white;
-   font: 3rem Georgia, serif;
+   font: 1.5rem Georgia, serif;
    margin-left: 12px;
   display: flex;
    align-items: center; 
@@ -97,7 +110,7 @@ header{
    align-items: center;
    justify-content: center;
    width:98%;
-   height: 80vh;
+   height: 40vh;
    background: rgb(164,170,175);
 background: linear-gradient(5deg, rgba(164,170,175,1) 
 0%, rgba(162,161,167,1) 78%, rgba(5,4,77,1) 99%,
@@ -111,7 +124,7 @@ header > div.bHead{
    flex-direction: column;
    justify-content: center;
    width:88%;
-   height: 36vh;
+   height: 10vh;
    background: rgb(5,4,77);
 background: linear-gradient(5deg, rgba(5,4,77,1) 1%,
 rgba(121,28,9,0.9684222565979517) 52%,
@@ -214,6 +227,8 @@ html > body > footer > p.see{
 /**************
        *** Option 2
         Tablets and smaller 
+        whole thing breaks when you set it to 
+        a real table or smaller size
         ***************************/
 @media(max-width:800px){
 
@@ -256,7 +271,7 @@ rgba(2,0,36,1) 89%);
 h1{
    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0em blue;
    color: white;
-   font: 3.5em Georgia, serif;
+   font: 2.5em Georgia, serif;
 }
 h2{
    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0em 0 0em blue;
@@ -730,10 +745,10 @@ footer > nav{
    justify-content: center;
        width: 90%;
    height: 100%;
-   background-size: cover;
+   /* background-size: cover;
    background-repeat: no-repeat;
    background-position: center;
-       background-image: url('/assets/proj1.png');
+       background-image: url('/assets/proj1.png'); */
    }
 
 
@@ -743,7 +758,7 @@ footer > nav{
        flex-direction: column;
        justify-content: center;
        width:88%;
-       height: 100%;
+       height: 100vh;
        background: rgb(5,4,77);
    background: linear-gradient(5deg, rgba(5,4,77,1) 1%,
     rgba(121,28,9,0.9684222565979517) 52%,
@@ -753,7 +768,7 @@ footer > nav{
        margin:10px;
    
    }
-   
+
    button.K:hover{
        font-size:2rem;
        font-weight: 600;
@@ -762,6 +777,8 @@ footer > nav{
    
    }
    button.K{
+    width:100%;
+    height:100%;
        font-size:2rem;
        font-weight: 600;
        color:black;
