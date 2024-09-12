@@ -7,7 +7,7 @@ export default function Home(){
     return(
         <>
             {
-                numPages !== null && <Loadingdoc />
+                <Loadingdoc />
             }
         </>
     )
