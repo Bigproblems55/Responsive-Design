@@ -26,7 +26,7 @@ export default function Pdfviewer({numPages,setNumPages}) {
             
           }
       }else{
-        onDocumentLoadSuccess(7);
+        onDocumentLoadSuccess([1,2,3,4,5,6,7,8]);
       }
       }catch(e){
         // onDocumentLoadSuccess(7);
