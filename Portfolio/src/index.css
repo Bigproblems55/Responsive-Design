@@ -1,68 +1,72 @@
-/* reset css */
-span, applet, object,  
-h3, h4, h5, h6, blockquote, pre,  
-abbr, acronym, address, big, cite, code,  
-del, dfn, em,  ins, kbd, q, s, samp,  
-small, strike, strong, sub, sup, tt, var,  
-b, u, i, 
-dl, dt, dd, ol, ul, li,  
-fieldset, form, label, legend,  
-table, caption, tbody, tfoot, thead, tr, th, td,  
-article, aside, canvas, details, embed,  
-figure, figcaption, hgroup,  
-menu, output, ruby, summary,  
-time, mark, audio, video {  
-margin: 0;  
-padding: 0;  
-border: 0;  
-font-size: 62.5%;  
-font: inherit;  
-vertical-align: baseline;  
-}
-/* HTML5 display-role reset */
-article, aside, details, figcaption, 
-figure, hgroup, menu {
-   display: flex;
-}
-
 /* Desktops */
-@media(min-width:800px){
-   /* Add CSS styling here */
+@media(max-width:890px){
+    /* Name in header needs to be adjusted here*/
+    h1.h1style{
+        text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0em blue;
+   color: white;
+   font: 2rem Georgia, serif;
+    }
+}
+@media(min-width:770px){ 
    b{
        font-size:2rem;
        font-weight:700;
    }
    iframe {
     display: flex;
-    text-align:center;
     flex-direction: column;
-    justify-content: center;
-    
-
+    align-content: center;
 }
 div > iframe{
     width:100%;
     height:100vh;
 }
-
-
 nav{
    display: flex;
-   flex-direction: row-reverse;
+   flex-direction: row;
    height: 100%;
 }
 .nav{
-   margin:11px;
+    align-items: center;
+   /* margin:11px; */
    border: 2px solid black;
-   width:94vw;
+   /* width:94vw; */
+   width:96%;
    height:20vh;
    background: rgb(5,4,77);
 background: linear-gradient(90deg, rgba(5,4,77,1) 1%, 
 rgba(9,9,121,1) 21%, 
 rgba(0,212,255,1) 53%, rgba(5,103,183,1) 65%,
 rgba(2,0,36,1) 89%);
-  
 }
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:98%;
+    height: 30vh;
+    background: rgb(164,170,175);
+ background: linear-gradient(5deg, rgba(164,170,175,1) 
+ 0%, rgba(162,161,167,1) 78%, rgba(5,4,77,1) 99%,
+ rgba(0,212,255,1) 100%, rgba(121,28,9,0.9684222565979517) 100%);
+ 
+    margin:1px;
+ }
+ header > div.bHead{
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+    justify-content: center;
+    width:88%;
+    height: 10vh;
+    background: rgb(5,4,77);
+ background: linear-gradient(5deg, rgba(5,4,77,1) 1%,
+ rgba(121,28,9,0.9684222565979517) 52%,
+ rgba(5,103,183,1) 88%, rgba(0,212,255,1) 97%,
+  rgba(2,0,36,1) 100%);
+    margin:10px;
+ }
+
 h1{
    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0em blue;
    color: white;
@@ -104,36 +108,7 @@ button.navK:hover{
    font-family:Arial, serif; 
    margin:12px;
 }
-header{
-   display: inline-flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   width:98%;
-   height: 40vh;
-   background: rgb(164,170,175);
-background: linear-gradient(5deg, rgba(164,170,175,1) 
-0%, rgba(162,161,167,1) 78%, rgba(5,4,77,1) 99%,
-rgba(0,212,255,1) 100%, rgba(121,28,9,0.9684222565979517) 100%);
 
-   margin:1px;
-}
-header > div.bHead{
-   display: flex;
-   text-align:center;
-   flex-direction: column;
-   justify-content: center;
-   width:88%;
-   height: 10vh;
-   background: rgb(5,4,77);
-background: linear-gradient(5deg, rgba(5,4,77,1) 1%,
-rgba(121,28,9,0.9684222565979517) 52%,
-rgba(5,103,183,1) 88%, rgba(0,212,255,1) 97%,
- rgba(2,0,36,1) 100%);
-
-   margin:10px;
-
-}
 a{
    color:inherit;
    text-decoration: none;
@@ -178,7 +153,6 @@ section{
    height:100%;
 }
 
-
 .projCon{
    display:flex;
    flex-direction: row;
@@ -209,8 +183,6 @@ footer > nav{
    display: flex;
    justify-content: center;
 }
-/* Find out why visibilty hidden takes away all the other
-        like what you sees */
 html > body > footer > p.see{
    color:black;
    font-weight:700;
@@ -219,27 +191,23 @@ html > body > footer > p.see{
    text-justify: center;
 }
 }
-
-
 /* End Desktops*/
-
-
 /**************
        *** Option 2
         Tablets and smaller 
         whole thing breaks when you set it to 
         a real table or smaller size
         ***************************/
-@media(max-width:800px){
+@media(max-width:769px){
 
 /* Add Mobile  styling here */
 
-
 header{
-   display: inline-flex;
+   display: flex;
    flex-direction: column;
-   align-items: center;
-   justify-content: center;
+   align-items: space-evenly;
+
+   /* justify-content: center; */
    width:98%;
    height: 100%;
    background: rgb(164,170,175);
@@ -250,10 +218,10 @@ rgb(98, 131, 138) 100%, rgba(121,28,9,0.9684222565979517) 100%);
    margin:1px;
 }
 
-
 nav{
    display: flex;
-   flex-direction: column-reverse;
+   flex-direction: row;
+   justify-content: center;
    height: 100%;
 }
 .nav{
@@ -261,7 +229,7 @@ nav{
    border: 2px solid black;
    width:94%;
    height:100%;
-   background: rgb(5,4,77);
+   background: #05044d;
 background: linear-gradient(90deg, rgba(5,4,77,1) 1%, 
 rgba(9,9,121,1) 21%, 
 rgba(0,212,255,1) 53%, rgba(5,103,183,1) 65%,
@@ -293,7 +261,7 @@ button.navK{
    background-color: black;
    text-shadow: 1px 1px 12px blue, 10em 10em 11em red, 0em 0em 0em blue;
    color: orange;
-   font-size:3rem;
+   font-size:2rem;
    font-style:Arial, serif;
    margin:12px;
 }
@@ -302,10 +270,9 @@ button.navK:hover{
    background-color: green;
    text-shadow: 1px 1px 12px blue, 10em 10em 11em red, 0em 0em 0em blue;
    color: red;
-   font-size:3rem;
+   font-size:2rem;
    margin:12px;
 }
-
 
 a{
    color:inherit;
@@ -320,12 +287,10 @@ a:after{
    text-decoration: none;
 }
 
-/* The bottom part of header */
-
 header > div.bHead{
    display: flex;
    text-align:center;
-   flex-direction: column;
+   flex-direction: row;
    justify-content: center;
    width:88%;
    height: 100%;
@@ -361,10 +326,6 @@ rgba(137,173,92,1) 34%, rgba(180,57,32,0.9022852793461135) 100%);
    height: 6rem;
 }
 
-
-
-
-
 /*  Middle section*/
 section.middle-sec{
    display:flex;
@@ -399,18 +360,11 @@ div.projectBoxes{
        width:50%; height:50%;
        /* Any custom height */
    }
-   
 
-
-
-/* The footer*/
 footer > nav{
    display: flex;
    justify-content: center;
 }
-
-
-
 @media(max-height:500px){
 
    /* Add Mobile  styling here */
@@ -624,7 +578,7 @@ footer > nav{
        min width 800 & max height 650 or 500
                **********/
 
-@media(max-height:650px){
+@media(max-height:640px )and (max-width:360px){
    html > body > footer > p.see{
        color:black;
        font-weight:700;
@@ -638,7 +592,7 @@ footer > nav{
        font-weight: 900;
        font-size:1rem;
    }
-   @media(min-width:800px){
+   
 
       html > body > footer > p.see{
           color:black;
@@ -647,9 +601,6 @@ footer > nav{
           text-align: center;
           text-justify: center;
       }
-
-   /* Add Mobile  styling here */
-   
    
    header{
        display: flex;
@@ -665,7 +616,6 @@ footer > nav{
    
        margin:1px;
    }
-   
    
    nav{
        display: flex;
@@ -723,7 +673,6 @@ footer > nav{
        margin:12px;
    }
    
-   
    a{
        color:inherit;
        text-decoration: none;
@@ -750,7 +699,6 @@ footer > nav{
    background-position: center;
        background-image: url('/assets/proj1.png'); */
    }
-
 
  body >  header > div.bHead{
        display: flex;
@@ -793,10 +741,6 @@ footer > nav{
        height: 6rem;
    }
    
-   
-   
-   
-   
    /*  Middle section*/
    section.middle-sec{
        display:flex;
@@ -833,17 +777,10 @@ footer > nav{
        /* Any custom height */
    }
    
-   
    /* The footer*/
    footer > nav{
        display: flex;
        justify-content: center;
    }
-   
-   
-   
-   }
-
 }  /*End max-height 650 min-width: 800 */
-
 

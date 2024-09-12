@@ -1,5 +1,5 @@
 import React from "react"
-import {Link,NavLink} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 export default function Header(){
 
     return(
@@ -23,7 +23,7 @@ export default function Header(){
                 to="/">
                 <button  className="navK">Home</button>
                     </NavLink>
-                
+               <h1 className="h1style">Nicholas Anthony Lacapria</h1>
             </nav>
             
         </header>
