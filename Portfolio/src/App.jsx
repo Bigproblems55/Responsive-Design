@@ -4,7 +4,7 @@ import Header from './Header';
 import Midsection from './Midsection/Midsection';
 import Footer from './Footer';
 import Home from './Homepath/Home';
-import Contact from './Contact/Contact';
+import About from './About/About';
 import ContactList from './Contact/ContactList'
 function App() {
  
@@ -22,7 +22,7 @@ function App() {
         <Route  path="/Projects"
             element={<Midsection />} ></Route> 
         <Route  path="/About"
-            element={<Contact />} ></Route> 
+            element={<About />} ></Route> 
          <Route  path="/Contact"
             element={<ContactList />} ></Route> 
           
