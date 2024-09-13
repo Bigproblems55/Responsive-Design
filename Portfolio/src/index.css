@@ -7,7 +7,38 @@
    font: 2rem Georgia, serif;
     }
 }
-@media(min-width:770px){ 
+@media(min-width:770px){
+    div.abcon > h1.abconh1{
+        text-shadow: 0px 0px 0px black, 0 0 0em blue, 0 0 0em blue;
+   
+        color:black;
+    }
+    div.abcon{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        border: black,solid,1px;
+        width:98%
+    } 
+    div.abcon p{
+        border: black,solid,1px;
+        width:80%;
+        height:100%;
+        padding-left: 12px;
+        padding-top: 12px;
+        padding-right: 12px;
+        padding-bottom: 12px;
+    }
+    div.abcon1{
+        display: flex;
+        justify-content: center;
+    }
+    div.abcon1 p:hover{
+        /* box-shadow: 2px 3px 8px red, 10em 10em 11em red ; */
+        background-color: green;
+        color: black;
+        
+    }
    b{
        font-size:2rem;
        font-weight:700;
@@ -90,7 +121,7 @@ nav > button.navK{
    justify-self: flex-end;
 }
 button.navK{
-  
+    border-radius: 8px;
    box-shadow: 2px 3px 8px red, 10em 10em 11em red ;
    background-color: black;
    text-shadow: 1px 1px 12px blue, 10em 10em 11em red, 0em 0em 0em blue;
@@ -178,10 +209,20 @@ div.projectBoxes > img {
    width:50%; height:50%;
    /* Any custom height */
 }
-
+footer{
+    width:98%;
+    height: 100%;
+    background: rgb(164,170,175);
+ background: linear-gradient(5deg, rgba(164,170,175,1) 
+ 0%, rgba(162,161,167,1) 78%, rgba(5,4,77,1) 99%,
+ rgb(98, 131, 138) 100%, rgba(121,28,9,0.9684222565979517) 100%);
+ 
+    margin:1px;
+}
 footer > nav{
    display: flex;
    justify-content: center;
+   
 }
 html > body > footer > p.see{
    color:black;
@@ -202,12 +243,44 @@ html > body > footer > p.see{
 
 /* Tablet styling */
 
-header{
-   /* display: flex; */
-   /* flex-direction: row; */
-   /* align-items: space-evenly; */
+div.abcon > h1.abconh1{
+    text-shadow: 0px 0px 0px black, 0 0 0em blue, 0 0 0em blue;
 
-   /* justify-content: center; */
+    color:black;
+}
+div.abcon{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border: black,solid,1px;
+    width:100%
+} 
+div.abcon p{
+    border: black,solid,1px;
+    width:80%;
+    height:100%;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+}
+div.abcon1{
+    display: flex;
+    justify-content: center;
+}
+div.abcon1 p:hover{
+    /* box-shadow: 2px 3px 8px red, 10em 10em 11em red ; */
+    background-color: green;
+    color: black;
+    
+}
+
+header{
+    display: flex; 
+   flex-direction: row; 
+   align-items: space-evenly;
+
+   justify-content: center; 
    width:100%;
    height: 100%;
    background: rgb(164,170,175);
@@ -222,12 +295,12 @@ nav{
    display: flex;
    flex-direction: column;
    align-items: center;
-   height: 100%;
+   height: 50%;
 }
 .nav{
    margin:11px;
    border: 2px solid black;
-   width:94%;
+   width:64%;
    height:100%;
    background: #05044d;
 background: linear-gradient(90deg, rgba(5,4,77,1) 1%, 
@@ -360,10 +433,25 @@ div.projectBoxes{
        width:50%; height:50%;
        /* Any custom height */
    }
+   footer{
+    display: flex; 
+    flex-direction: row; 
+    align-items: space-evenly;
+ 
+    justify-content: center; 
+    width:100%;
+    height: 100%;
+    background: rgb(164,170,175);
+ background: linear-gradient(5deg, rgba(164,170,175,1) 
+ 0%, rgba(162,161,167,1) 78%, rgba(5,4,77,1) 99%,
+ rgb(98, 131, 138) 100%, rgba(121,28,9,0.9684222565979517) 100%);
+ 
+    margin:1px;
+   }
 
 footer > nav{
    display: flex;
-   justify-content: center;
+   align-items: center;
 }
 @media(max-height:500px){
 
@@ -419,8 +507,8 @@ footer > nav{
        width:100%;
    }
    nav > button.navK{
-       
-       justify-self: flex-end;
+    
+       /* justify-self: flex-end; */
    }
    
    button.navK{
@@ -554,10 +642,6 @@ footer > nav{
    }
 
 
-   html > body > footer > p.see{
-       visibility: hidden;
-    }
-
 
 }   /* End max-width 800px & max-height: 500px*/
 
@@ -623,6 +707,9 @@ footer > nav{
        height: 100%;
    }
    .nav{
+    
+    /* display: flex;
+    justify-content: center; */
        margin:11px;
        border: 2px solid black;
        width:94%;
@@ -635,6 +722,7 @@ footer > nav{
       
    }
    h1{
+
        text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0em blue;
        color: white;
        font: 3.5em Georgia, serif;
@@ -651,11 +739,12 @@ footer > nav{
 
    }
    nav > button.navK{
-       
+       border-radius: 8px;
        justify-self: flex-end;
    }
    
    button.navK{
+    
        box-shadow: 2px 3px 8px red, 10em 10em 11em red ;
        background-color: black;
        text-shadow: 1px 1px 12px blue, 10em 10em 11em red, 0em 0em 0em blue;
