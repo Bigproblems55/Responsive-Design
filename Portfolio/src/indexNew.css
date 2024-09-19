@@ -17,6 +17,51 @@
 }
 
 @media(min-width:870px){
+   section div {
+      display:flex;
+      flex-direction: column;
+      
+
+   }
+   section.middle-sec{
+      /* width:75%; */
+      /* height: 100%; */
+      /* margin:2px; */
+      background-color:red;
+      /* width:25%; */
+      height: 100%;
+   }
+   div.projCon{
+      align-items: center;
+   }
+   /* section div div {
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: yellow;
+      width:30%
+   } */
+   section > div.projectBoxes{
+      display:flex;
+
+   }
+   div.projectBoxes{
+      margin:2px;
+
+   }
+   .projectBoxes button{
+      width:10%;
+      height:10%;
+   }
+   .projectBoxes img{
+      width:10%;
+      height:10%;
+   }
+   .projectBoxes p{
+      width:25%;
+      height: 25%;
+      margin:2px;
+   }
     nav{
         display: flex;
         flex-direction: row;
@@ -301,7 +346,7 @@
      }
      nav > button.navK{
    
-        /* justify-self: stretch; */
+        justify-self: stretch;
      }
 
      button.navK{

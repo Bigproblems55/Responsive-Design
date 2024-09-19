@@ -9,7 +9,7 @@ export default function Midsection(){
         <>
         <section className='middle-sec'>
         <div className='projCon'>
-            <div class='projectBoxes'><b>User Interface</b>
+            <div className='projectBoxes'><b>User Interface</b>
             
             <button><a href="https://naughty-poincare-17bc38.netlify.app/">Sweet EETS Bakery</a></button>
             
@@ -20,7 +20,7 @@ export default function Midsection(){
             </p>
 
                 </div>
-                <div class='projectBoxes'><b>Advanced CSS Selectors</b>
+                <div className='projectBoxes'><b>Advanced CSS Selectors</b>
             
             <button> <a href="https://github.com/extrude575757/Git-for-Web-Development-Project">Git for Web Development</a></button>
             
@@ -29,7 +29,7 @@ export default function Midsection(){
                 A project on CSS Selectors and how to use them
             </p>
         </div>
-        <div class='projectBoxes'><b>Intro to Css</b>
+        <div className='projectBoxes'><b>Intro to Css</b>
             
             <button> <a href="https://focused-hugle-a34bbe.netlify.app/">National Parks Project</a></button>
             
@@ -38,7 +38,7 @@ export default function Midsection(){
                 Intro to CSS using a national parks website owned by the government. 
             </p>
         </div>
-        <div class='projectBoxes'><b>Sprint Project</b>
+        <div className='projectBoxes'><b>Sprint Project</b>
             
             <button><a href="https://frosty-meitner-11b18e.netlify.app/">Sprint Project</a></button>
             
