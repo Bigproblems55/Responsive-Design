@@ -17,23 +17,22 @@
 }
 
 @media(min-width:870px){
-   section div {
+   section.middle-sec div {
       display:flex;
-      flex-direction: column;
-      
+      flex-direction: row;
+      justify-content: space-evenly;
+
 
    }
    section.middle-sec{
       /* width:75%; */
-      /* height: 100%; */
+      width: 90%;
       /* margin:2px; */
-      background-color:red;
+      background-color:rgb(241, 238, 238);
       /* width:25%; */
       height: 100%;
    }
-   div.projCon{
-      align-items: center;
-   }
+
    /* section div div {
       display:flex;
       flex-direction: column;
@@ -41,25 +40,45 @@
       background-color: yellow;
       width:30%
    } */
-   section > div.projectBoxes{
+   /* section div div.projectBoxes{
       display:flex;
+      flex-direction: row;
+      justify-content: center;
+      
 
+   } */
+    section div.projCon div{
+      display: flex;
+      flex-direction: column;
+      /* justify-content:space-evenly; */
+      /* justify-content: center; */
+      align-items: center;
+    }
+    div.projCon{
+      /* display:flex;
+      flex-direction: row;
+      justify-items: center; */
+      width:996px;
+      border:2px solid red;
    }
    div.projectBoxes{
-      margin:2px;
+      height:232px;
+      width:232px;
+      border: solid black 2px;
+      margin:10px;
 
    }
    .projectBoxes button{
-      width:10%;
-      height:10%;
+      /* width:10%; */
+      height:20px;
    }
    .projectBoxes img{
-      width:10%;
-      height:10%;
+      width:100px;
+      height:100px;
    }
    .projectBoxes p{
-      width:25%;
-      height: 25%;
+      /* width:25%; */
+      height: 100px;
       margin:2px;
    }
     nav{
