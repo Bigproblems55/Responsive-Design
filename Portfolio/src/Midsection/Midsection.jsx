@@ -7,7 +7,7 @@ export default function Midsection(){
 
     return(
         <>
-        <section className='middle-sec'>
+        <section id="sec" className='middle-sec'>
         <div className='projCon'>
             <div className='projectBoxes'><b>User Interface</b>
             
