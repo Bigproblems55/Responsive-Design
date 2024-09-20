@@ -1,5 +1,24 @@
 /* Laptops / Desktops */
 @media(max-height:325px){
+   div.contactAbout{
+      display:flex;
+      justify-content: center;
+      flex-direction: row;
+   }
+   .contactAbout{
+      margin:2px;
+      width:80%;
+      
+   }
+   div.contactAbout div#contactme{
+      width:40%;
+ 
+   }
+   #contactme{
+      width:30%;
+      margin:2px;
+      border:2px solid yellow;
+   }
      div div#sec.projCon{
       /* display:flex;
       flex-direction: row;
@@ -48,7 +67,7 @@
     
        margin:1px;
     }
-    h1{
+    .nav h1{
       text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0em blue;
       color: white;
       font: 1rem Georgia, serif;
@@ -79,7 +98,44 @@
   }
 }
 @media(max-width:870px){
+   .abconh1{
+      width:30%;
+      color:black;
+   }
+   .abcon1{
+      display: flex;
+      flex-direction: row;
+   }
+   .abcon1 p{
+      margin:8px;
+   }
+
+   div.contactAbout{
+      display:flex;
+      align-items: center;
+      flex-direction: column;
+   }
+   .contactAbout p{
+      width:55%;
+
+   }
+   /* .contactAbout{
+      margin:2px;
+      /* width:0%; */
+      /* border:solid 2px black; */
+      
+    */
+   div.contactAbout div#contactme{
+      width:40%;
+ 
+   }
+   #contactme{
+      width:30%;
+      margin:2px;
+      /* border:2px solid yellow; */
+   }
  .h1style{
+      color:black;
         font-size: 26px;
     }
     section.middle-sec div {
@@ -175,6 +231,46 @@
 }
 
 @media(min-width:870px){
+   .h1style{
+      color:black;
+        font-size: 26px;
+    }
+   .abconh1{
+      width:30%;
+      color:black;
+   }
+   .abcon1{
+      display: flex;
+      flex-direction: row;
+   }
+   .abcon1 p{
+      margin:8px;
+   }
+
+   div.contactAbout{
+      display:flex;
+      align-items: center;
+      flex-direction: column;
+   }
+   .contactAbout p{
+      width:55%;
+
+   }
+   /* .contactAbout{
+      margin:2px;
+      /* width:0%; */
+      /* border:solid 2px black; */
+      
+    */
+   div.contactAbout div#contactme{
+      width:40%;
+ 
+   }
+   #contactme{
+      width:30%;
+      margin:2px;
+      /* border:2px solid yellow; */
+   }
    section.middle-sec div {
       display:flex;
       flex-direction: row;
@@ -284,7 +380,7 @@
       
          margin:1px;
       }
-      h1{
+     .nav h1{
         text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0em blue;
         color: white;
         font: 2.2rem Georgia, serif;
@@ -404,7 +500,7 @@
       
          margin:1px;
       }
-      h1{
+   .nav h1{
         text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0em blue;
         color: white;
         font: 2.2rem Georgia, serif;
