@@ -62,32 +62,38 @@
       flex-direction: row;
       justify-items: center; */
       width:100%;
-      border:2px solid red;
+      border:2px solid black;
    }
    div div.projectBoxes{
       height:232px;
       width:232px;
-      border: solid black 2px;
-      margin:10px;
+      border: solid grey 2px;
+      margin:2px;
+      padding:2px;
 
    }
    .projectBoxes button{
-      width:20%;
+      width:100px;
       height:20px;
+   }
+   .projectBoxes b{
+      width:100px;
+      height:50px;
    }
    .projectBoxes img{
       width:100px;
-      height:100px;
+      height:150px;
    }
    .projectBoxes p{
-      width:45%;
+      width:100%;
       height: 100px;
-      margin:2px;
+      margin:1px;
+      padding:1px;
    }
    div.projectBoxes p{
       width:30%;
       height:100%;
-      border: solid blue 2px;
+      /* border: solid blue 2px; */
    }
     nav{
         display: flex;

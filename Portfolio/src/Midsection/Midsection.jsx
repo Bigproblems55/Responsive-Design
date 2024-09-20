@@ -15,7 +15,7 @@ export default function Midsection(){
             
             <img src={proj1} alt="Sweet_EEts_Bakery-Project" />
             <p>
-                A project for a bakery website called sweet eets which describes
+                Project for a bakery website called sweet eets which describes
                 their menu items and secret recipes 
             </p>
 
