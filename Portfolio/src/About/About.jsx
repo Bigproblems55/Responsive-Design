@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Githubimage from '../Assets/github.png'
 export default function  About(){
 
     return(
@@ -12,15 +12,15 @@ export default function  About(){
             <div className='abcon1'>
                 <p >
             <i class="fa fa-github" aria-hidden="true">
-                <a href='https://www.github.com/Bigproblems55'> Current Account</a></i>
+                <a href='https://www.github.com/Bigproblems55'>Current Account</a></i>
             </p>
             <p>
             <i class="fa fa-github" aria-hidden="true">
-                <a href='https://www.github.com/Knewmule'> Learning Videos</a></i>
+                <a href='https://www.github.com/Knewmule'>Learning Videos</a></i>
             </p>
             <p>
             <i class="fa fa-github" aria-hidden="true">
-                <a href='https://www.github.com/Extrude575757'> School of Lambda</a></i>
+                <a href='https://www.github.com/Extrude575757'>School of Lambda</a></i>
             </p>
             </div>
            </div>
