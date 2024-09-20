@@ -21,12 +21,13 @@
       display:flex;
       flex-direction: row;
       justify-content: space-evenly;
+      flex-flow: wrap;
 
 
    }
    section.middle-sec{
       /* width:75%; */
-      width: 90%;
+      width: 100%;
       /* margin:2px; */
       background-color:rgb(241, 238, 238);
       /* width:25%; */
@@ -51,17 +52,19 @@
       display: flex;
       flex-direction: column;
       /* justify-content:space-evenly; */
-      /* justify-content: center; */
+      justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
+      width:250px;
     }
     div.projCon{
       /* display:flex;
       flex-direction: row;
       justify-items: center; */
-      width:996px;
+      width:100%;
       border:2px solid red;
    }
-   div.projectBoxes{
+   div div.projectBoxes{
       height:232px;
       width:232px;
       border: solid black 2px;
@@ -69,7 +72,7 @@
 
    }
    .projectBoxes button{
-      /* width:10%; */
+      width:20%;
       height:20px;
    }
    .projectBoxes img{
@@ -77,9 +80,14 @@
       height:100px;
    }
    .projectBoxes p{
-      /* width:25%; */
+      width:45%;
       height: 100px;
       margin:2px;
+   }
+   div.projectBoxes p{
+      width:30%;
+      height:100%;
+      border: solid blue 2px;
    }
     nav{
         display: flex;

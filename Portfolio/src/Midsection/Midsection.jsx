@@ -26,7 +26,7 @@ export default function Midsection(){
             
             <img src={proj2} alt="Git_For_Web_Dev" />
             <p>
-                A project on CSS Selectors and how to use them
+                Project on CSS Selectors and how to use them
             </p>
         </div>
         <div className='projectBoxes'><b>Intro to Css</b>
