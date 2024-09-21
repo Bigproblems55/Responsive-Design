@@ -20,9 +20,10 @@ export default function Midsection(){
         return <Error title="Failed to fetch projects" message={error} />;
       }
     return(
-        <>
+        <section id="sec" className='middle-sec'>
             {
-                !isLoading && projects.map((v,i)=>{
+                
+                    projects.map((v,i)=>{
                     console.log(v.title);
                     
                         return(
@@ -38,7 +39,8 @@ export default function Midsection(){
                         )
                     
                 })
+            
             }
-        </>
+        </section>
     );
 }
