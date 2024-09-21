@@ -1,0 +1,26 @@
+import React from "react";
+
+export default function Midsec({title,
+    image,
+    imagealt,
+    paragraph,
+    link,
+    linktext}){
+
+    return(
+        <section id="sec" className='middle-sec'>
+        <div className='projCon'>
+            <div className='projectBoxes'><b>{title}</b>
+            
+            <button><a href={link}>{linktext}</a></button>
+            
+            <img src={`http://localhost:4000/${image}`} alt={imagealt} />
+            <p>
+                {paragraph}
+            </p>
+
+                </div>
+            </div>
+            </section>
+    )
+}
