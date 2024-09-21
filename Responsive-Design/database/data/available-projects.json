@@ -1,0 +1,35 @@
+[
+    {
+        "title":"User Interface",
+        "link":"https://naughty-poincare-17bc38.netlify.app",
+        "linktext":"Sweet EETS Bakery",
+        "image":"images/proj1.png",
+        "imagealt":"Sweet_EEts_Bakery-Project",
+        "paragraph":"Bakery project website called Sweet EEts describing menu items and secret recipes"
+    },
+    {
+        "title":"Advanced CSS Selectors",
+        "link":"https://github.com/extrude575757/Git-for-Web-Development-Project",
+        "linktext":"Git for Web Development",
+        "image":"images/proj2.png",
+        "imagealt":"Git_For_Web_Dev",
+        "paragraph":"Project on CSS Selectors and how to use them"
+    },
+    {
+        "title":"Intro to Css",
+        "link":"https://focused-hugle-a34bbe.netlify.app/",
+        "linktext":"National Parks Project",
+        "image":"images/proj3.png",
+        "imagealt":"National_Forrest_Website",
+        "paragraph":"Intro to CSS, developing a national parks website."
+    },
+    {
+        "title":"Sprint Project",
+        "link":"https://frosty-meitner-11b18e.netlify.app/",
+        "linktext":"Sprint Project",
+        "image":"images/sprint.png",
+        "imagealt":"Sprint_at-Lambda_Site",
+        "paragraph":"Sprint project at lambda with a website for lambda studnets."
+    }
+
+]

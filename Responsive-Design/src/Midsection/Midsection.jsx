@@ -1,55 +1,46 @@
 import React from 'react';
-import proj1 from '../Assets/proj1.png';
-import proj2 from '../Assets/proj2.png';
-import proj3 from '../Assets/proj3.png';
-import sprint from '../Assets/sprint.png';
+const config ={};
+import useHttp from '../hooks/useHttp';
+import Midsec from './Midsec';
+import Error from '../Components/Error'
 export default function Midsection(){
 
+    const {
+        data: projects,
+        isLoading,
+        error
+    } = useHttp('http://localhost:4000/projects',config,[]);
+
+
+    if (isLoading) {
+        return <p className="center">Fetching Projects...</p>;
+      }
+    
+      if (error) {
+        return <Error title="Failed to fetch projects" message={error} />;
+      }
     return(
-        <>
         <section id="sec" className='middle-sec'>
-        <div className='projCon'>
-            <div className='projectBoxes'><b>User Interface</b>
+            {
+                
+                    projects.map((v,i)=>{
+                    console.log(v.title);
+                    
+                        return(
+                            <Midsec key={i} 
+                        title={v.title} 
+                        link={v.link}
+                        linktext={v.linktext}
+                        imagealt={i.imagealt}
+                        image={v.image}
+                        paragraph={v.paragraph}
+                        />
+                        
+                        )
+                    
+                })
             
-            <button><a href="https://naughty-poincare-17bc38.netlify.app/">Sweet EETS Bakery</a></button>
-            
-            <img src={proj1} alt="Sweet_EEts_Bakery-Project" />
-            <p>
-                Project for a bakery website called sweet eets which describes
-                their menu items and secret recipes 
-            </p>
-
-                </div>
-                <div className='projectBoxes'><b>Advanced CSS Selectors</b>
-            
-            <button> <a href="https://github.com/extrude575757/Git-for-Web-Development-Project">Git for Web Development</a></button>
-            
-            <img src={proj2} alt="Git_For_Web_Dev" />
-            <p>
-                Project on CSS Selectors and how to use them
-            </p>
-        </div>
-        <div className='projectBoxes'><b>Intro to Css</b>
-            
-            <button> <a href="https://focused-hugle-a34bbe.netlify.app/">National Parks Project</a></button>
-            
-            <img src={proj3} alt="National_Forrest_Website" />
-            <p>
-                Intro to CSS using a national parks website owned by the government. 
-            </p>
-        </div>
-        <div className='projectBoxes'><b>Sprint Project</b>
-            
-            <button><a href="https://frosty-meitner-11b18e.netlify.app/">Sprint Project</a></button>
-            
-            <img src={sprint} alt="Sprint_at-Lambda_Site" />
-            <p>
-                Sprint project at lambda with a website for lambda studnets.
-            </p>
-        </div>
-
-            </div>
-            </section>
-        </>
+            }
+        </section>
     );
 }
