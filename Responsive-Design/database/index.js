@@ -4,7 +4,7 @@ const port = process.env.PORT || 4000;
 
 import fs from 'node:fs/promises';
 import bodyParser from 'body-parser';
-
+import url from 'url';
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
@@ -16,6 +16,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/projects', async (req, res) => {
+  const parsedUrl = url.parse('https://responsive-design-1backend.onrender.com', true);
   const projects = await fs.readFile('./data/available-projects.json', 'utf8');
   res.json(JSON.parse(projects));
 });
