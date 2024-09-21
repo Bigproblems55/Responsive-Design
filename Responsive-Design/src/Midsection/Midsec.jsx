@@ -13,7 +13,7 @@ export default function Midsec({title,
         
         <button><a href={link}>{linktext}</a></button>
         
-        <img src={`http://localhost:4000/${image}`} alt={imagealt} />
+        <img src={`https://responsive-design-1backend.onrender.com/${image}`} alt={imagealt} />
         <p>
             {paragraph}
         </p>

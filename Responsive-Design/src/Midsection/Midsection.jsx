@@ -9,7 +9,7 @@ export default function Midsection(){
         data: projects,
         isLoading,
         error
-    } = useHttp('http://localhost:4000/projects',config,[]);
+    } = useHttp('https://responsive-design-1backend.onrender.com/projects',config,[]);
 
 
     if (isLoading) {
