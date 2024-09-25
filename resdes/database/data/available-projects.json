@@ -1,0 +1,93 @@
+[
+    {
+        "title":"Advanced CSS Selectors",
+        "link":"https://codepen.io/extrude575757/pen/bGEKbKx",
+        "linktext":"Git for Web Development",
+        "image":"images/proj2.png",
+        "imagealt":"Git_For_Web_Dev",
+        "paragraph":"Project on CSS Selectors and how to use them",
+        "githubrepo":"https://github.com/extrude575757/Git-for-Web-Development-Project"
+    },
+    {
+        "title":"Intro to Css",
+        "link":"https://focused-hugle-a34bbe.netlify.app/",
+        "linktext":"National Parks Project",
+        "image":"images/proj3.png",
+        "imagealt":"National_Forrest_Website",
+        "paragraph":"Intro to CSS, developing a national parks website.",
+        "githubrepo":"https://github.com/Bigproblems55/web-module-project-intro-css"
+    },
+    {
+        "title":"Sprint Project",
+        "link":"https://frosty-meitner-11b18e.netlify.app/",
+        "linktext":"Sprint Project",
+        "image":"images/sprint.png",
+        "imagealt":"Sprint_at-Lambda_Site",
+        "paragraph":"Sprint project at lambda with a website for lambda studnets.",
+        "githubrepo":"https://github.com/Bigproblems55/web-sprint-challenge-advanced-css-and-intro-js"
+    },
+    {
+        "title":"React Github Api",
+        "link":"https://react-github-user-card.onrender.com/",
+        "linktext":"Github API",
+        "image":"images/github-api.png",
+        "imagealt":"Find Github User",
+        "paragraph":"Use githubs api in React to find any user.",
+        "githubrepo":"https://github.com/Stemcatch/React-Github-User-Card"
+    },
+    {
+        "title":"Movies Router",
+        "link":"https://responsive-design-be.onrender.com/",
+        "linktext":"Movies API",
+        "image":"images/MoviesRouter.png",
+        "imagealt":"Find a Movie",
+        "paragraph":"Made a backend api display movie names and their details",
+        "githubrepo":"https://github.com/Stemcatch/React-Router-Movies"
+    },
+    {
+        "title":"FormManagement Notes",
+        "link":"https://formmanagement-addnotes.onrender.com/",
+        "linktext":"Take Notes",
+        "image":"images/NotesFormManagement.png",
+        "imagealt":"FormManagement",
+        "paragraph":"Form Managment with component rendering for note taking.",
+        "githubrepo":"https://github.com/Stemcatch/React_FormManagement_AddNotees"
+    },
+    {
+        "title":"Redux Carsales",
+        "link":"https://redux-middleware-car-sales.onrender.com/",
+        "linktext":"Redux Carsales",
+        "image":"images/ReduxCarSales.png",
+        "imagealt":"Redux Middleware",
+        "paragraph":"State running through Redux middleware for car feature addon costs.",
+        "githubrepo":"https://github.com/Bigproblems55/Car-Sales"
+    },
+    {
+        "title":"Components Instaclone",
+        "link":"https://react-components-insta-clone.onrender.com",
+        "linktext":"Social Media Clone",
+        "image":"images/components-instaclone.png",
+        "imagealt":"Components Social Media",
+        "paragraph":"React Components render an Instaclone social media site.",
+        "githubrepo":"https://github.com/Bigproblems55/React-Components-Insta-Clone"
+    },
+    {
+        "title":"NASA DOM",
+        "link":"https://nasa-photo-of-the-day.onrender.com",
+        "linktext":"NASA Daily Photo",
+        "image":"images/NASA-DOM.png",
+        "imagealt":"Daily photo from NASA DOM",
+        "paragraph":"NASA shows us the photo of the day as we render from the DOM.",
+        "githubrepo":"https://github.com/Bigproblems55/nasa-photo-of-the-day"
+    },
+    {
+        "title":"Skins and Charts",
+        "link":"https://skins-charts-darkmode.onrender.com/",
+        "linktext":"Skins Charts BTC",
+        "image":"images/darkmode-hook.png",
+        "imagealt":"Skins and Charts with Crypto currency",
+        "paragraph":"Light or Darkmode view crypto coin info drawn out on charts.",
+        "githubrepo":"https://github.com/Bigproblems55/dark-mode"
+    }
+
+]
