@@ -3,8 +3,7 @@ import useHttp from '../hooks/useHttp';
 import Midsec from './Midsec';
 import Error from '../Components/Error'
 const config ={};
-export default function Midsection(){
-
+export default function Midsection(){ 
     const {
         data: projects,
         isLoading,
@@ -34,6 +33,7 @@ export default function Midsection(){
                         imagealt={i.imagealt}
                         image={v.image}
                         paragraph={v.paragraph}
+                        githubrepo={v.githubrepo}
                         />
                         
                         )

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b72b383.css",
+    "main.js": "/static/js/main.d3f47882.js",
+    "static/media/NicholasAnthonyLacapriapdfresume.pdf": "/static/media/NicholasAnthonyLacapriapdfresume.6747c59948372c2e122a.pdf",
+    "index.html": "/index.html",
+    "main.6b72b383.css.map": "/static/css/main.6b72b383.css.map",
+    "main.d3f47882.js.map": "/static/js/main.d3f47882.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b72b383.css",
+    "static/js/main.d3f47882.js"
+  ]
+}

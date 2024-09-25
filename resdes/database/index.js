@@ -18,6 +18,7 @@ app.use((req, res, next) => {
 app.get('/projects', async (req, res) => {
   const parsedUrl = url.parse('https://responsive-design-1backend.onrender.com', true);
   const projects = await fs.readFile('./data/available-projects.json', 'utf8');
+  console.log('GET /projects')
   res.json(JSON.parse(projects));
 });
 

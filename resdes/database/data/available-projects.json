@@ -1,19 +1,12 @@
 [
     {
-        "title":"User Interface",
-        "link":"https://naughty-poincare-17bc38.netlify.app",
-        "linktext":"Sweet EETS Bakery",
-        "image":"images/proj1.png",
-        "imagealt":"Sweet_EEts_Bakery-Project",
-        "paragraph":"Bakery project website called Sweet EEts describing menu items and secret recipes"
-    },
-    {
         "title":"Advanced CSS Selectors",
-        "link":"https://github.com/extrude575757/Git-for-Web-Development-Project",
+        "link":"https://codepen.io/extrude575757/pen/bGEKbKx",
         "linktext":"Git for Web Development",
         "image":"images/proj2.png",
         "imagealt":"Git_For_Web_Dev",
-        "paragraph":"Project on CSS Selectors and how to use them"
+        "paragraph":"Project on CSS Selectors and how to use them",
+        "githubrepo":"https://github.com/extrude575757/Git-for-Web-Development-Project"
     },
     {
         "title":"Intro to Css",
@@ -21,7 +14,8 @@
         "linktext":"National Parks Project",
         "image":"images/proj3.png",
         "imagealt":"National_Forrest_Website",
-        "paragraph":"Intro to CSS, developing a national parks website."
+        "paragraph":"Intro to CSS, developing a national parks website.",
+        "githubrepo":"https://github.com/Bigproblems55/web-module-project-intro-css"
     },
     {
         "title":"Sprint Project",
@@ -29,7 +23,8 @@
         "linktext":"Sprint Project",
         "image":"images/sprint.png",
         "imagealt":"Sprint_at-Lambda_Site",
-        "paragraph":"Sprint project at lambda with a website for lambda studnets."
+        "paragraph":"Sprint project at lambda with a website for lambda studnets.",
+        "githubrepo":"https://github.com/Bigproblems55/web-sprint-challenge-advanced-css-and-intro-js"
     },
     {
         "title":"React Github Api",
@@ -37,7 +32,8 @@
         "linktext":"Github API",
         "image":"images/github-api.png",
         "imagealt":"Find Github User",
-        "paragraph":"Use githubs api in React to find any user."
+        "paragraph":"Use githubs api in React to find any user.",
+        "githubrepo":"https://github.com/Stemcatch/React-Github-User-Card"
     },
     {
         "title":"Movies Router",
@@ -45,7 +41,8 @@
         "linktext":"Movies API",
         "image":"images/MoviesRouter.png",
         "imagealt":"Find a Movie",
-        "paragraph":"Made a backend api display movie names and their details"
+        "paragraph":"Made a backend api display movie names and their details",
+        "githubrepo":"https://github.com/Stemcatch/React-Router-Movies"
     },
     {
         "title":"FormManagement Notes",
@@ -53,7 +50,8 @@
         "linktext":"Take Notes",
         "image":"images/NotesFormManagement.png",
         "imagealt":"FormManagement",
-        "paragraph":"Form Managment with component rendering for note taking."
+        "paragraph":"Form Managment with component rendering for note taking.",
+        "githubrepo":"https://github.com/Stemcatch/React_FormManagement_AddNotees"
     },
     {
         "title":"Redux Carsales",
@@ -61,7 +59,8 @@
         "linktext":"Redux Carsales",
         "image":"images/ReduxCarSales.png",
         "imagealt":"Redux Middleware",
-        "paragraph":"State running through Redux middleware for car feature addon costs."
+        "paragraph":"State running through Redux middleware for car feature addon costs.",
+        "githubrepo":"https://github.com/Bigproblems55/Car-Sales"
     },
     {
         "title":"Components Instaclone",
@@ -69,7 +68,8 @@
         "linktext":"Social Media Clone",
         "image":"images/components-instaclone.png",
         "imagealt":"Components Social Media",
-        "paragraph":"React Components render an Instaclone social media site."
+        "paragraph":"React Components render an Instaclone social media site.",
+        "githubrepo":"https://github.com/Bigproblems55/React-Components-Insta-Clone"
     },
     {
         "title":"NASA DOM",
@@ -77,7 +77,8 @@
         "linktext":"NASA Daily Photo",
         "image":"images/NASA-DOM.png",
         "imagealt":"Daily photo from NASA DOM",
-        "paragraph":"NASA shows us the photo of the day as we render from the DOM."
+        "paragraph":"NASA shows us the photo of the day as we render from the DOM.",
+        "githubrepo":"https://github.com/Bigproblems55/nasa-photo-of-the-day"
     },
     {
         "title":"Skins and Charts",
@@ -85,7 +86,8 @@
         "linktext":"Skins Charts BTC",
         "image":"images/darkmode-hook.png",
         "imagealt":"Skins and Charts with Crypto currency",
-        "paragraph":"Light or Darkmode view crypto coin info drawn out on charts."
+        "paragraph":"Light or Darkmode view crypto coin info drawn out on charts.",
+        "githubrepo":"https://github.com/Bigproblems55/dark-mode"
     }
 
 ]
