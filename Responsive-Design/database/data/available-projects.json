@@ -30,6 +30,62 @@
         "image":"images/sprint.png",
         "imagealt":"Sprint_at-Lambda_Site",
         "paragraph":"Sprint project at lambda with a website for lambda studnets."
+    },
+    {
+        "title":"React Github Api",
+        "link":"https://react-github-user-card.onrender.com/",
+        "linktext":"Github API",
+        "image":"images/github-api.png",
+        "imagealt":"Find Github User",
+        "paragraph":"Use githubs api in React to find any user."
+    },
+    {
+        "title":"Movies Router",
+        "link":"https://responsive-design-be.onrender.com/",
+        "linktext":"Movies API",
+        "image":"images/MoviesRouter.png",
+        "imagealt":"Find a Movie",
+        "paragraph":"Made a backend api display movie names and their details"
+    },
+    {
+        "title":"FormManagement Notes",
+        "link":"https://formmanagement-addnotes.onrender.com/",
+        "linktext":"Take Notes",
+        "image":"images/NotesFormManagement.png",
+        "imagealt":"FormManagement",
+        "paragraph":"Form Managment with component rendering for note taking."
+    },
+    {
+        "title":"Redux Carsales",
+        "link":"https://redux-middleware-car-sales.onrender.com/",
+        "linktext":"Redux Carsales",
+        "image":"images/ReduxCarSales.png",
+        "imagealt":"Redux Middleware",
+        "paragraph":"State running through Redux middleware for car feature addon costs."
+    },
+    {
+        "title":"Components Instaclone",
+        "link":"https://react-components-insta-clone.onrender.com",
+        "linktext":"Social Media Clone",
+        "image":"images/components-instaclone.png",
+        "imagealt":"Components Social Media",
+        "paragraph":"React Components render an Instaclone social media site."
+    },
+    {
+        "title":"NASA DOM",
+        "link":"https://nasa-photo-of-the-day.onrender.com",
+        "linktext":"NASA Daily Photo",
+        "image":"images/NASA-DOM.png",
+        "imagealt":"Daily photo from NASA DOM",
+        "paragraph":"NASA shows us the photo of the day as we render from the DOM."
+    },
+    {
+        "title":"Skins and Charts",
+        "link":"https://skins-charts-darkmode.onrender.com/",
+        "linktext":"Skins Charts BTC",
+        "image":"images/darkmode-hook.png",
+        "imagealt":"Skins and Charts with Crypto currency",
+        "paragraph":"Light or Darkmode view crypto coin info drawn out on charts."
     }
 
 ]
