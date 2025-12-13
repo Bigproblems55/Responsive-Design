@@ -1,0 +1,22 @@
+div #upwork{
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold  ;
+    font-family:"Neue Montreal","Helvetica Neue","Helvetica","Arial","sans-serif";
+}
+div #fiverr{
+     color:#0f0f0f;
+    font-size: 26px;
+    text-decoration: none;
+    font-weight: bold  ;
+    font-family: Macan,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+div #fiverrp{
+    color:#1DBF73;
+    font-size: 26px;
+    text-decoration: none;
+    font-weight: bold  ;
+    font-family: "Macan","Helvetica Neue";
+}
+
